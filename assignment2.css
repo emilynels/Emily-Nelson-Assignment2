@@ -1,1 +1,54 @@
-
+.header1{
+padding-right:30px;
+color: yellow;
+}
+.header2{
+padding-right:30px;
+}
+.header3{
+padding-right:30px;
+}
+.container1{
+background-image:url(https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/1200px-Flag_of_France.svg.png);
+  background-color: #8b6767;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+    font-size:50px;
+background-size:cover;
+}
+.container1 h1{
+font-size: 110px;
+ background-color: aqua;
+}
+.container2{
+background-color: red;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+}
+.synopsis{
+    padding:50px;
+    font-size:25px;
+}
+.poster{
+    max-width:40%;
+    max-height:40%;
+    padding:50px;
+}
+.container3 table{
+  background-color: #8b6767;
+  border: 3px solid black;
+    padding: 30px;
+}
+.btable{
+    display:flex;
+    background-color:blue;
+}
+.white{
+    display:flex;
+}
+.red{
+    display:flex;
+    background-color:red;
+}
