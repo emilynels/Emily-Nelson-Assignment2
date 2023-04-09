@@ -1,54 +1,226 @@
+*{font-family: 'Libre Baskerville', serif;
+}
+.nav-link{
+    color:lightcoral;
+}
+p{
+  line-height:30px;
+}
 .header1{
 padding-right:30px;
-color: yellow;
+    background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .header2{
 padding-right:30px;
+    background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .header3{
 padding-right:30px;
+    background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+    z-index: 100
 }
 .container1{
 background-image:url(https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/1200px-Flag_of_France.svg.png);
-  background-color: #8b6767;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
-    font-size:50px;
+    font-size:40px;
 background-size:cover;
+    margin-top:80px;
 }
 .container1 h1{
-font-size: 110px;
- background-color: aqua;
+font-size: 80px;
+ background-color: whitesmoke;
+}
+.hometitle{
+background-color: whitesmoke;
+font-size:30px;
+padding-top:20px;
+padding-bottom:5px;
 }
 .container2{
-background-color: red;
+background-color: aliceblue;
   display: flex;
   justify-content: space-around;
   align-items:center;
 }
 .synopsis{
     padding:50px;
-    font-size:25px;
+    font-size:20px;
+}
+.button{
+   background-color: whitesmoke;
+  color: black;
+  padding: 15px 32px;
+  font-size: 20px;
+  border-radius:8px;
 }
 .poster{
     max-width:40%;
     max-height:40%;
     padding:50px;
 }
-.container3 table{
-  background-color: #8b6767;
-  border: 3px solid black;
-    padding: 30px;
+.container3{
+    text-align:center;
+    background-color:lightcoral;
+    padding:40px;
+}
+.awardtable{
+   align-content: center;
+ background-color: antiquewhite;
+  border: 7px solid white;
+  text-align:left;
+  padding: 32px;
+  border-collapse: collapse;
+}
+.awardtable th{
+    font-weight:bold;
+    font-size:20px;
+}
+.aboutheader{
+    margin-top:100px;
+    margin-bottom:30px;
+    text-align:center;
+    padding-bottom:25px;
+    padding-top:25px;
+    background-color:whitesmoke;
+}
+.blue{
+    background-color: aliceblue;
+}
+.btext{
+    text-align:center;
+    padding-top:25px;
+    margin-left:90px;
+    margin-right:90px;
+}
+.btext p{
+padding-top:15px;
 }
 .btable{
     display:flex;
-    background-color:blue;
+  justify-content: space-around;
+  align-items:center;
+padding:20px;
+}
+.blueimage{
+    width:40%;
+    padding:20px;
 }
 .white{
+    background-color:antiquewhite;
+}
+.wtext{
+ text-align:center;
+    padding-top:25px;
+    margin-left:90px;
+    margin-right:90px;
+}
+.wtext p{
+padding-top:15px;
+}
+.wtable{
     display:flex;
+    flex-direction:row-reverse;
+    align-items:center;
+    padding:20px;
+}
+.whiteimage{
+    width:40%;
+    padding:20px;
 }
 .red{
-    display:flex;
-    background-color:red;
+    background-color:lightcoral;
+}
+.rtext{
+text-align:center;
+    padding-top:25px;
+    margin-left:90px;
+    margin-right:90px;
+}
+.rtext p{
+padding-top:15px;
+}
+.table-bordered{
+    font-size:20px;
+  border: 7px solid white;
+  text-align:center;
+  border-collapse: collapse;
+    height:auto;
+  min-width:auto;
+    border-spacing:0 30px;
+    flex:1;
+    height:270px
+}
+.table-bordered th{
+    font-weight:bold;
+    font-size:25px;
+}
+.rtable{
+   display:flex;
+  justify-content: space-around;
+  align-items:center;
+padding:20px;
+}
+.redimage{
+    width:40%;
+    padding:20px;
+}
+.favshots{
+    margin-top:100px;
+    margin-bottom:30px;
+    text-align:center;
+    padding-bottom:25px;
+    padding-top:25px;
+    background-color:whitesmoke;
+}
+.reviewheader{
+    text-align:center;
+    padding-top:25px;
+    padding-bottom:25px;
+    background-color:whitesmoke;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.progress{
+    margin:40px;
+}
+.bluereview{
+    background-color: aliceblue;
+    padding:40px;
+    text-align: center;
+}
+.bluewords{
+    margin-left:40px;
+    margin-right:40px;
+    text-align: center;
+}
+.whitereview{
+    background-color: antiquewhite;
+    padding:40px;
+    text-align: center;
+}
+.whitewords{
+ margin-left:40px;
+    margin-right:40px;
+     text-align: center;
+}
+.redreview{
+    background-color: lightcoral;
+    padding:40px;
+    text-align: center;
+}
+.redwords{
+  margin-left:40px;
+    margin-right:40px;
+     text-align: center;
 }
