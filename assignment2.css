@@ -80,7 +80,9 @@ background-color: #f0f8ff;
       flex-direction:row;
   justify-content: space-between;
   align-items:center;
-      padding:20px;
+      margin-left:20px;
+      margin-right:20px;
+      padding-bottom:20px;
   }
 @media only screen and (max-width: 720px) {
   .tabley {
